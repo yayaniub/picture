@@ -40,7 +40,7 @@ export default async function handler(req: NextRequest) {
     // ?siteName=<siteName>
     const siteName = searchParams.has('siteName')
       ? searchParams.get('siteName')?.slice(0, 20)
-      : '左蓝'
+      : 'PGY'
     // ?description=<description>
     const description = searchParams.has('description')
       ? searchParams.get('description')?.slice(0, 30)
